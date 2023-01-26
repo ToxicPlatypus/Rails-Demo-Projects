@@ -6,15 +6,15 @@ class ProductTest < ActiveSupport::TestCase
   test "product attributes must not be empty" do
     product = Product.new
     # assert product.invalid?
-    puts assert product.invalid?
+    assert product.invalid?
     # assert product.errors[:title].any?
-    puts assert product.errors[:title].any?
+    assert product.errors[:title].any?
     # assert product.errors[:description].any?
-    puts assert product.errors[:description].any?
+    assert product.errors[:description].any?
     # assert product.errors[:price].any?
-    puts assert product.errors[:price].any?
+    assert product.errors[:price].any?
     # assert product.errors[:image_url].any?
-    puts assert product.errors[:image_url].any?
+    assert product.errors[:image_url].any?
   end
 
   test "product price must be positive" do
