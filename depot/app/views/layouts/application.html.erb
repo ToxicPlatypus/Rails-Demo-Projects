@@ -26,10 +26,14 @@
           <li><a href="http://www..../news">News</a></li>
           <li><a href="http://www..../contact">Contact</a></li>
         </ul>
+
+<!--        <p id="time"> <%#= Time.now %> </p>-->
+        <p id="time"> <%= Date.today %> </p>
       </div>
       <div id="main">
         <%= yield %>
       </div>
+
     </div>
   </body>
 </html>
