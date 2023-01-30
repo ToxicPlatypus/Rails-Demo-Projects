@@ -5,7 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ae3ebbd-54d1-45f8-9f75-1da1da33eefb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../bootcamp/app/views/students/edit.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bootcamp/app/views/students/show.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootcamp/app/controllers/students_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../bootcamp/app/controllers/students_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootcamp/app/models/student.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../bootcamp/app/models/student.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootcamp/app/views/students/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/../bootcamp/app/views/students/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootcamp/app/views/students/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/../bootcamp/app/views/students/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootcamp/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../bootcamp/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../depot/app/assets/stylesheets/store.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../depot/app/assets/stylesheets/store.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../depot/app/controllers/line_items_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../depot/app/controllers/line_items_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../depot/app/views/carts/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/../depot/app/views/carts/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../depot/app/views/store/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/../depot/app/views/store/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../depot/test/controllers/line_items_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../depot/test/controllers/line_items_controller_test.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,6 +166,7 @@
       <workItem from="1674564461563" duration="613000" />
       <workItem from="1674622027801" duration="1000" />
       <workItem from="1674622112930" duration="43000" />
+      <workItem from="1675082648831" duration="352000" />
     </task>
     <servers />
   </component>
