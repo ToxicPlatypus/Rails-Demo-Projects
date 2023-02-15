@@ -20,6 +20,12 @@
 <%= render 'home/header' %>
 <div class = 'container'>
   <br/>
+  <% if notice %>
+    <%= render 'layouts/alerts', class: 'mt-4' %>
+  <% end %>
+
+  <br/>
+
   <%= yield %>
 </div>
 

@@ -1,29 +1,13 @@
-<p id="notice"><%= notice %></p>
+<div class="jumbotron">
+  <h5 class="display-4"><%= @friend.first_name %>
+    <%= @friend.last_name %></h5>
+  <p class="lead"><%= "Email: #{@friend.email}" %></p>
+  <p class="lead"><%= "Phone Number: #{@friend.phone}" %></p>
+  <p class="lead"><%= "Twitter: #{@friend.twitter}" %></p>
+  <hr class="my-4">
 
-<p>
-  <strong>First name:</strong>
-  <%= @friend.first_name %>
-</p>
+  <%= link_to 'Edit', edit_friend_path(@friend), class: "btn btn-sm btn-info my-2" %>
+  <%= link_to 'Back', friends_path, class: "btn btn-sm btn-danger my-2" %>
 
-<p>
-  <strong>Last name:</strong>
-  <%= @friend.last_name %>
-</p>
+</div>
 
-<p>
-  <strong>Email:</strong>
-  <%= @friend.email %>
-</p>
-
-<p>
-  <strong>Phone:</strong>
-  <%= @friend.phone %>
-</p>
-
-<p>
-  <strong>Twitter:</strong>
-  <%= @friend.twitter %>
-</p>
-
-<%= link_to 'Edit', edit_friend_path(@friend) %> |
-<%= link_to 'Back', friends_path %>
