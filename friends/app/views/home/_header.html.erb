@@ -36,5 +36,12 @@
         </li>
       <% end %>
     </ul>
+    <% if user_signed_in? %>
+      <form class="form-inline my-2 my-lg-0">
+        <p class="nav-item text-white m-2">
+          <%= current_user.email %>
+        </p>
+      </form>
+    <% end %>
   </div>
 </nav>
