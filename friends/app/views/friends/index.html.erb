@@ -2,7 +2,7 @@
   <h3>Friends List</h3>
   <table class="table table-striped table-bordered table-hover">
     <thead class="thead-dark">
-      <tr>
+      <tr class='text-center'>
         <th>Name</th>
         <th>Email</th>
         <th>Phone</th>
@@ -15,7 +15,7 @@
 <%=  %>
     <tbody>
       <% @friends.each do |friend| %>
-        <tr>
+        <tr class='text-center'>
           <td><%= link_to friend.first_name + ' ' + friend.last_name, friend %></td>
           <td><%= friend.email %></td>
           <td><%= friend.phone %></td>
@@ -36,10 +36,8 @@
     <% else %>
       <%= link_to 'Your Friends', friends_path, class:"btn btn-primary" %>
     <% end %>
-
   <% else %>
-  <h1>Hell0 Beautiful People</h1>
+
+  <h1>Hello Beautiful People</h1>
 
 <% end %>
-
-
